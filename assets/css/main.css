@@ -16,6 +16,11 @@
     height: 100vh;
 }
 
+.gray-bg{
+    background-color: var(--color-light-gray);
+    color: var(--color-salmao);
+}
+
 .section{
     min-height: 100vh;
 }
@@ -65,3 +70,20 @@
  .intro-img img{
     width: 60rem;
  }
+
+ .top3-content{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+ }
+
+.top3-content h2{
+    padding-bottom:var(--gap) ;
+    font-size: 5rem;
+}
+
+.top3-content p{
+    line-height: 4rem;
+    padding-bottom: var(--gap);
+}
