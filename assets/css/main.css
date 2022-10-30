@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap');
 
+:root{
+    --gap: 3rem;
+
+}
 
 .main-bg{
     min-height: 100%;
@@ -22,7 +26,42 @@
     padding: var(--gap);
 }
 
-img{
+.menu img{
     width: 9vw;
 }
 
+.menu-spacing{
+    height: 85px;
+}
+
+
+/*------------*/
+
+.intro-content{
+    position: relative;
+    top: -5.9rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text-content, .intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.intro-text-content h2{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+}
+
+ .intro-img {
+    max-width: 100%;
+    height: auto;
+ }
+
+ .intro-img img{
+    width: 60rem;
+ }
