@@ -1,0 +1,22 @@
+:root{
+    --color-white: #fff;
+    --color-salmao: #F29472;
+    --color-light-gray: #eeee;
+    --gap: 3rem;
+    --value-zero-top-bottom: 0 0 0 0; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    /* font-family: 'Montserrat', sans-serif; */
+}
